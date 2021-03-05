@@ -13,11 +13,42 @@ ul {
   margin-bottom: 0px;
 }
 
+footer {
+  height: 75px;
+  background-color: #2f3132;
+}
+
+footer p {
+  padding-top: 37px;
+  padding-bottom: 22px;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7px;
+  line-height: 8px;
+  color: #c7c8c8;
+}
+
 .containerCenter {
   display: grid;
   justify-content: center;
   align-content: center;
   justify-items: center;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 /********work********/
@@ -28,16 +59,24 @@ ul {
 .logo {
   margin-top: 25px;
   margin-bottom: 93px;
+  width: 100%;
+}
+
+.navbar .navbar-toggler {
+  position: absolute;
+  top: 0px;
+  right: 28px;
+  border-color: transparent;
+}
+
+.navbar .container-fluid {
+	width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.heading {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
+.navbar-light .navbar-toggler-icon {
+    background-image: url(image/menu-burger.svg);
 }
 
 .work_image {
@@ -54,10 +93,6 @@ ul {
 }
 
 .work_text {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
   text-align: center;
 }
 
@@ -79,21 +114,10 @@ ul {
   margin-bottom: 27px;
 }
 
-.bluetooh_heading {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 20px;
-  line-height: 23px;
-  padding-bottom: 20px;
-}
-
 .bluetooh_text {
+  padding-top: 20px;
   margin-left: 34px;
   margin-right: 34px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
 }
 
 .bluetooh_img {
@@ -125,21 +149,12 @@ ul {
 .multiple_heading {
   margin-left: 28px;
   margin-right: 28px;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 20px;
-  line-height: 23px;
-  margin-bottom: 20px;
   text-align: center;
 }
 
 .multiple_text {
   margin-left: 33px;
   margin-right: 33px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
   text-align: center;
   margin-bottom: 36px;
 }
@@ -169,5 +184,51 @@ ul {
 
 .multiple_list__number li:last-child {
   padding-bottom: 0px;
+}
+
+/*comfort*/
+.comfortSpeed {
+  padding-top: 70px;
+  text-align: center;
+}
+
+.comfort_heading {
+  margin-left: 34px;
+  margin-right: 34px;
+  margin-bottom: 20px;
+}
+
+.comfort_text {
+  margin-left: 34px;
+  margin-right: 34px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 20px;
+}
+
+.comfort_img {
+  height: 310px;
+  background-image: url(image/image\ 1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.speed_heading {
+  margin: 70px 34px 20px 34px;
+}
+
+.speed_text {
+  margin: 0px 33px 20px 33px;
+}
+
+.speed_img {
+  height: 310px;
+  background-image: url(image/image\ 2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
