@@ -330,3 +330,68 @@ footer p {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+.slide_heading {
+  margin-top: 27px;
+  margin-bottom: 20px;
+}
+
+.slider_text {
+  text-align: center;
+  margin: 19px 34px 63px 34px;
+}
+/*Slider_1*/
+
+#carouselExampleIndicators {
+  width: 100%;
+}
+
+.carousel-indicators {
+  bottom: -63px;
+  margin-bottom: 0px;
+  height: 30px;
+  position: static;
+}
+
+#carouselExampleIndicators > div.carousel-indicators button {
+  text-indent: 0;
+  opacity: 1;
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  background-color: inherit;
+  margin-left: 22px;
+  border: 0px;
+}
+
+#carouselExampleIndicators > div.carousel-indicators button:first-child {
+	margin-left: 0px;
+}
+
+.carousel-control-prev {
+  bottom: inherit;
+}
+
+#carouselExampleIndicators > div.carousel-indicators .carousel-control-prev {
+  height: inherit;
+  position: relative;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(image/anythingSlider/button/arrow-left.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#carouselExampleIndicators > div.carousel-indicators .carousel-control-next {
+  height: inherit;
+  position: relative;
+}
+
+.carousel-control-next-icon {
+  background-image: url(image/anythingSlider/button/arrow-right.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
