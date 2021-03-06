@@ -13,6 +13,10 @@ ul {
   margin-bottom: 0px;
 }
 
+p {
+  margin-bottom: 0px;
+}
+
 footer {
   height: 75px;
   background-color: #2f3132;
@@ -58,29 +62,29 @@ footer p {
 
 /*burgerMenu*/
 .logo {
-  margin-top: 25px;
+  padding-top: 25px;
   margin-bottom: 93px;
   width: 100%;
 }
 
 .navbar .navbar-toggler {
   position: absolute;
-  top: 0px;
+  top: 25px;
   right: 28px;
 }
 
 .navbar-toggler:focus {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 .navbar-light .navbar-toggler {
-    color: inherit;
-    border-color: inherit;
+  color: inherit;
+  border-color: inherit;
 }
 
 .navbar-toggler {
-    background-color: transparent;
-    border: transparent;
+  background-color: transparent;
+  border: transparent;
 }
 
 .navbar .container-fluid {
@@ -94,8 +98,8 @@ footer p {
   background-image: url(image/menu-burger.svg);
 }
 
-.navbar-collapse{
-	background-color: #2F3132;
+.navbar-collapse {
+  background-color: #2f3132;
 }
 
 .navbar-nav {
@@ -113,15 +117,16 @@ footer p {
 }
 
 .nav-item:first-child {
-	margin-top: 148px;
+  margin-top: 148px;
 }
 
 .nav-item:last-child {
-	margin-bottom: 208px;
+  margin-bottom: 208px;
 }
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-	border-bottom: 2px solid #FFFFFF;
-	color: #FFFFFF;
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -129,22 +134,23 @@ footer p {
 }
 
 .disable {
- display: none;
+  display: none;
 }
 
 .backColor {
-	background-color: #2F3132;
+  background-color: #2f3132;
+  transition: 0.2s;
 }
 
 #x {
-margin-top:14px;
-margin-right: -20px;
+  margin-top: 14px;
+  margin-right: -20px;
 }
 
 /*/burgerMenu*/
 .work_image {
   height: 230px;
-  width: 320px;
+  width: 100%;
   background-image: url(image/MX-Master\ 1.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -185,7 +191,7 @@ margin-right: -20px;
 
 .bluetooh_img {
   height: 218px;
-  width: 320px;
+  width: 100%;
   background-image: url(image/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -209,6 +215,14 @@ margin-right: -20px;
   padding-top: 70px;
 }
 
+.multiple_img {
+  height: 218px;
+  width: 100%;
+  background-image: url(image/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
 .multiple_heading {
   margin-left: 28px;
   margin-right: 28px;
@@ -223,12 +237,7 @@ margin-right: -20px;
 }
 
 .multiple_list {
-  width: 320px;
-  padding-bottom: 218px;
-  background-image: url(image/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center bottom;
+  width: 100%;
 }
 
 .multiple_list__number {
@@ -293,4 +302,31 @@ margin-right: -20px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+/********anything********/
+
+.section_anything {
+  padding-top: 70px;
+}
+
+.heading_text {
+  margin: 20px 67px 30px 67px;
+}
+
+.anything_content {
+  margin-bottom: 27px;
+  text-align: center;
+  display: flex;
+  gap: 6px;
+}
+
+.anything_content__item {
+  border: 1px solid black;
+  width: 165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
