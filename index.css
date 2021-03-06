@@ -230,10 +230,8 @@ footer p {
 }
 
 .multiple_text {
-  margin-left: 33px;
-  margin-right: 33px;
+  margin: 20px 33px 36px 33px;
   text-align: center;
-  margin-bottom: 36px;
 }
 
 .multiple_list {
@@ -365,7 +363,7 @@ footer p {
 }
 
 #carouselExampleIndicators > div.carousel-indicators button:first-child {
-	margin-left: 0px;
+  margin-left: 0px;
 }
 
 .carousel-control-prev {
@@ -394,4 +392,56 @@ footer p {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+/********settings********/
+
+#carouselSettings {
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.section_settings {
+  background-color: #ededed;
+  padding-top: 60px;
+}
+
+.settings_text {
+  margin: 20px 33px 35px 33px;
+  text-align: center;
+}
+
+#carouselSettings #settings_button button {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: #c4c4c4;
+  margin-left: 15px;
+}
+
+#carouselSettings img {
+  height: 404px;
+  object-fit: contain;
+}
+
+#carouselSettings #settings_button button.active {
+  background-color: #2f3132;
+}
+
+.settings_optimisetion {
+  padding: 23px 22px 26px 22px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #c4c4c4;
+}
+
+.optimisetion_items {
+  margin-bottom: 19px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.optimisition_text {
+  margin-left: 12px;
+  margin-right: 12px;
 }
