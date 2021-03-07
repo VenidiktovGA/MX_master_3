@@ -11,6 +11,7 @@ main {
 
 ul {
   margin-bottom: 0px;
+  padding-left: 0px;
 }
 
 p {
@@ -66,6 +67,11 @@ footer p {
   margin-bottom: 93px;
   padding-bottom: 0px;
   width: 100%;
+}
+
+.logo_start img,
+.logo_next img {
+  width: 130px;
 }
 
 .navbar .navbar-toggler {
@@ -186,9 +192,7 @@ footer p {
 }
 
 .bluetooh_text {
-  padding-top: 20px;
-  margin-left: 34px;
-  margin-right: 34px;
+  padding: 20px 33px 31px 33px;
 }
 
 .bluetooh_img {
@@ -201,8 +205,6 @@ footer p {
 }
 
 .bluetooh_70days {
-  margin-top: 31px;
-  height: 70px;
   font-style: normal;
   font-weight: 900;
   font-size: 60px;
@@ -220,7 +222,7 @@ footer p {
 .multiple_img {
   height: 218px;
   width: 100%;
-  background-image: url(image/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+  background-image: url(image/mobile/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
   background-repeat: no-repeat;
   background-position: center bottom;
 }
@@ -241,7 +243,7 @@ footer p {
 }
 
 .multiple_list__number {
-  padding-left: 54px;
+  margin-left: 54px;
   list-style-type: none;
   font-style: normal;
   font-weight: normal;
@@ -311,7 +313,7 @@ footer p {
 }
 
 .anything_text {
-  margin: 20px 67px 30px 67px;
+  padding: 20px 67px 30px 67px;
   text-align: center;
 }
 
@@ -452,6 +454,12 @@ footer p {
 /**************************Планшет*********************************/
 
 @media (min-width: 768px) {
+  /*work*/
+  .logo_start img,
+  .logo_next img {
+    width: 240px;
+  }
+
   .logo {
     padding-top: 54px;
     margin-bottom: 159px;
@@ -492,4 +500,100 @@ footer p {
     font-size: 40px;
     line-height: 47px;
   }
+  /*bluetooth*/
+  .header_bluetooh {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  .bluetooh_text {
+    padding: 30px 77px 67px 77px;
+  }
+
+  .bluetooh_70days {
+    font-size: 150px;
+    line-height: 176px;
+  }
+
+  .bluetooh_img {
+    height: 498px;
+  }
+
+  .section_bluetooth {
+    margin-bottom: 0px;
+  }
+
+  /*anything*/
+  .anything_text {
+    padding: 30px 77px 50px 77px;
+  }
+
+  .anything_content {
+    margin-bottom: 50px;
+    gap: 30px;
+  }
+
+  .anything_content__item {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #carouselExampleIndicators > div.carousel-indicators button {
+    margin-left: 30px;
+  }
+
+  .slider_text {
+    margin: 22px 77px 61px 77px;
+  }
+
+  /*multiple*/
+  .multiple_heading {
+    margin-left: 129px;
+    margin-right: 129px;
+    text-align: center;
+  }
+
+  .multiple_text {
+    margin: 30px 65px 70px 65px;
+  }
+
+  .multiple_img {
+    height: 460px;
+    background-image: url(image/tablet/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+  }
+
+  .multiple_list__number {
+    display: flex;
+	 justify-content: center;
+    margin-left: 67px;
+    margin-right: 67px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .multiple_list__number li {
+  padding-bottom: 0px;
+  margin-left: 67px;
+  border-right: 1px solid black;
+}
+
+  .multiple_list__number li:first-child {
+  width: 294px;
+  margin-left: 0px;
+}
+
+  .multiple_list__number li:nth-child(2) {
+  width: 280px;
+  margin-left: 28px;
+}
+
+  .multiple_list__number li:last-child {
+  width: 135px;
+  margin-left: 22px;
+  border-right: none;
+}
 }
