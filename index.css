@@ -56,6 +56,12 @@ footer p {
   line-height: 16px;
 }
 
+.tab_heading {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 /********work********/
 .section_work {
   background-color: #e0e1e2;
@@ -227,12 +233,6 @@ footer p {
   background-position: center bottom;
 }
 
-.multiple_heading {
-  margin-left: 28px;
-  margin-right: 28px;
-  text-align: center;
-}
-
 .multiple_text {
   margin: 20px 33px 36px 33px;
   text-align: center;
@@ -267,8 +267,6 @@ footer p {
 }
 
 .comfort_heading {
-  margin-left: 34px;
-  margin-right: 34px;
   margin-bottom: 20px;
 }
 
@@ -382,9 +380,6 @@ footer p {
 
 .carousel-control-prev-icon {
   background-image: url(image/anythingSlider/button/arrow-left.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 #carouselExampleIndicators > div.carousel-indicators .carousel-control-next {
@@ -394,16 +389,18 @@ footer p {
 
 .carousel-control-next-icon {
   background-image: url(image/anythingSlider/button/arrow-right.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 10px;
 }
 
 /********settings********/
 
 #carouselSettings {
   width: 100%;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 
 .section_settings {
@@ -422,6 +419,8 @@ footer p {
   height: 15px;
   background-color: #c4c4c4;
   margin-left: 15px;
+  margin-right: 0px;
+  border: none;
 }
 
 #carouselSettings img {
@@ -440,10 +439,14 @@ footer p {
   background-color: #c4c4c4;
 }
 
-.optimisetion_items {
+.optimisetion_items img {
+  height: 22px;
   margin-bottom: 19px;
-  display: flex;
-  justify-content: space-between;
+  margin-left: 22px;
+}
+
+.optimisetion_items img:first-child {
+  margin-left: 0px;
 }
 
 .optimisition_text {
@@ -544,19 +547,33 @@ footer p {
 
   #carouselExampleIndicators > div.carousel-indicators button {
     margin-left: 30px;
+    height: 30px;
+  }
+
+  #carouselExampleIndicators img,
+  #carouselExampleIndicators div.carousel-indicators button {
+    width: 40px;
+  }
+
+  #carouselExampleIndicators > div.carousel-indicators button {
+    margin-left: 40px;
+    height: 40px;
   }
 
   .slider_text {
     margin: 22px 77px 61px 77px;
   }
 
-  /*multiple*/
-  .multiple_heading {
-    margin-left: 129px;
-    margin-right: 129px;
-    text-align: center;
+  #anything_indicators {
+    height: 40px;
   }
 
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 12px;
+  }
+
+  /*multiple*/
   .multiple_text {
     margin: 30px 65px 70px 65px;
   }
@@ -568,7 +585,7 @@ footer p {
 
   .multiple_list__number {
     display: flex;
-	 justify-content: center;
+    justify-content: center;
     margin-left: 67px;
     margin-right: 67px;
     font-size: 20px;
@@ -576,24 +593,62 @@ footer p {
   }
 
   .multiple_list__number li {
-  padding-bottom: 0px;
-  margin-left: 67px;
-  border-right: 1px solid black;
-}
+    padding-bottom: 0px;
+    margin-left: 67px;
+    border-right: 1px solid black;
+  }
 
   .multiple_list__number li:first-child {
-  width: 294px;
-  margin-left: 0px;
-}
+    width: 294px;
+    margin-left: 0px;
+  }
 
   .multiple_list__number li:nth-child(2) {
-  width: 280px;
-  margin-left: 28px;
-}
+    width: 280px;
+    margin-left: 28px;
+  }
 
   .multiple_list__number li:last-child {
-  width: 135px;
-  margin-left: 22px;
-  border-right: none;
-}
+    width: 135px;
+    margin-left: 22px;
+    border-right: none;
+  }
+
+  /*setting*/
+  .section_settings {
+    background-color: #ededed;
+    padding-top: 70px;
+  }
+
+  .settings_text {
+    margin: 30px 65px 54px 65px;
+  }
+
+  #carouselSettings img {
+    height: 610px;
+    object-fit: contain;
+  }
+
+  #carouselSettings .carousel-indicators {
+    height: 25px;
+    margin-top: 53px;
+  }
+
+  #carouselSettings #settings_button button {
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+  }
+
+  #carouselSettings {
+    margin-bottom: 70px;
+  }
+
+  .optimisetion_items img {
+    height: 35px;
+  }
+  .optimisetion_items img {
+    margin-left: 35px;
+    margin-bottom: 25px;
+  }
 }
