@@ -21,9 +21,6 @@ p {
 footer {
   height: 75px;
   background-color: #2f3132;
-}
-
-footer p {
   padding-top: 37px;
   padding-bottom: 22px;
   text-align: center;
@@ -67,10 +64,14 @@ footer p {
   background-color: #e0e1e2;
 }
 
+.work_filter {
+  background-color: #e0e1e2;
+  height: 93px;
+}
+
 /*burgerMenu*/
 .logo {
   padding-top: 25px;
-  margin-bottom: 93px;
   padding-bottom: 0px;
   width: 100%;
 }
@@ -78,6 +79,10 @@ footer p {
 .logo_start img,
 .logo_next img {
   width: 130px;
+}
+
+.navbar {
+  background-color: #e0e1e2;
 }
 
 .navbar .navbar-toggler {
@@ -266,18 +271,8 @@ footer p {
   text-align: center;
 }
 
-.comfort_heading {
-  margin-bottom: 20px;
-}
-
 .comfort_text {
-  margin-left: 34px;
-  margin-right: 34px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  margin-bottom: 20px;
+  margin: 20px 34px 20px 34px;
 }
 
 .comfort_img {
@@ -289,11 +284,11 @@ footer p {
 }
 
 .speed_heading {
-  margin: 70px 34px 20px 34px;
+  margin-top: 70px;
 }
 
 .speed_text {
-  margin: 0px 33px 20px 33px;
+  margin: 20px 33px 20px 33px;
 }
 
 .speed_img {
@@ -465,7 +460,10 @@ footer p {
 
   .logo {
     padding-top: 54px;
-    margin-bottom: 159px;
+  }
+
+  .work_filter {
+    height: 159px;
   }
 
   .work_image {
@@ -586,8 +584,8 @@ footer p {
   .multiple_list__number {
     display: flex;
     justify-content: center;
-    margin-left: 67px;
-    margin-right: 67px;
+    margin-left: 0px;
+    margin-right: 0px;
     font-size: 20px;
     line-height: 23px;
   }
@@ -650,5 +648,38 @@ footer p {
   .optimisetion_items img {
     margin-left: 35px;
     margin-bottom: 25px;
+  }
+
+  .optimisition_text {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .settings_optimisetion {
+    width: 765px;
+    padding-bottom: 29px;
+    margin-bottom: 70px;
+  }
+
+  /*comfortSpeed*/
+  .comfort_text {
+    margin: 30px 69px 50px 69px;
+  }
+
+  .comfort_img,
+  .speed_img {
+    height: 549px;
+  }
+
+  .speed_text {
+    margin: 30px 65px 50px 65px;
+  }
+
+  footer {
+    height: 150px;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 47px;
+    padding-bottom: 71px;
   }
 }

@@ -10,6 +10,7 @@ buttonBurger.addEventListener('click', () => {
 
 	document.querySelector('button.navbar-toggler_open').classList.toggle("disable");
 	document.querySelector('button.navbar-toggler_close').classList.toggle("disable");
+	
 })
 
 buttonClose.addEventListener('click', () => {
