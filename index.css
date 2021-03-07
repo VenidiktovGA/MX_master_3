@@ -64,6 +64,7 @@ footer p {
 .logo {
   padding-top: 25px;
   margin-bottom: 93px;
+  padding-bottom: 0px;
   width: 100%;
 }
 
@@ -154,7 +155,7 @@ footer p {
   background-image: url(image/MX-Master\ 1.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
 }
 
 .workContainer_text {
@@ -165,7 +166,8 @@ footer p {
   text-align: center;
 }
 
-.arrow {
+.arrow svg {
+  height: 20px;
   text-align: center;
   margin-bottom: 48px;
 }
@@ -308,8 +310,9 @@ footer p {
   padding-top: 70px;
 }
 
-.heading_text {
+.anything_text {
   margin: 20px 67px 30px 67px;
+  text-align: center;
 }
 
 .anything_content {
@@ -444,4 +447,49 @@ footer p {
 .optimisition_text {
   margin-left: 12px;
   margin-right: 12px;
+}
+
+/**************************Планшет*********************************/
+
+@media (min-width: 768px) {
+  .logo {
+    padding-top: 54px;
+    margin-bottom: 159px;
+  }
+
+  .work_image {
+    height: 514px;
+  }
+
+  .workContainer_text {
+    margin: 124px 155px 76px 155px;
+  }
+
+  .arrow svg {
+    height: 29px;
+  }
+
+  .arrow {
+    margin-bottom: 80px;
+  }
+
+  .text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+  }
+
+  .nav-item {
+    font-size: 40px;
+    line-height: 47px;
+  }
 }
