@@ -470,6 +470,10 @@ footer {
   margin-right: 12px;
 }
 
+.slider_anything_desktop {
+  display: none !important;
+}
+
 /**************************/ /*Планшет*******************************/
 
 @media (min-width: 768px) {
@@ -744,6 +748,11 @@ footer {
   .workContainer_text {
     margin: 8px 155px 49px 155px;
   }
+
+  .work_image {
+    height: 671px;
+  }
+
   .nav-item {
     font-weight: 500;
     font-size: 12px;
@@ -965,7 +974,7 @@ footer {
 
   .comfortSpeed_content_nontainer {
     margin-top: 100px;
-	 margin-bottom: 100px;
+    margin-bottom: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -974,7 +983,7 @@ footer {
     height: 557px;
     background-image: url(image/tablet_horizontal/image\ 1.jpg);
     grid-area: 1/1/1/1;
-    background-position: center bottom;
+    background-position: right bottom;
   }
 
   .comfort_heading {
@@ -1014,10 +1023,10 @@ footer {
   .speed_img {
     height: 557px;
     background-image: url(image/tablet_horizontal/image\ 2.jpg);
-    background-position: center top;
+    background-position: left top;
   }
 
-  .tab_heading {
+  .comfortSpeed .tab_heading {
     flex-direction: column;
   }
 
@@ -1039,4 +1048,32 @@ footer {
     height: 970px;
     background-image: url(image/desktop/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
   }
+
+  #carouselExampleIndicators {
+    width: 1280px;
+  }
+
+  .bluetooh_text {
+    padding: 35px 580px 0px 580px;
+  }
+
+  .anything_text {
+    padding: 35px 578px 50px 578px;
+  }
+
+  .multiple_text {
+    margin: 35px 484px 70px 484px;
+  }
+
+  .settings_text {
+    margin: 30px 480px 54px 480px;
+  }
+
+  .slider_anything_desktop {
+  display: block !important;
+}
+
+.slider_anything_mobile {
+	display: none !important;
+}
 }
