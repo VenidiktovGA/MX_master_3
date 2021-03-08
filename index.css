@@ -731,6 +731,12 @@ footer {
     line-height: 23px;
   }
 
+  .heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+  }
   .workContainer_text {
     margin: 8px 155px 49px 155px;
   }
@@ -817,7 +823,7 @@ footer {
   }
 
   .bluetooh_text {
-    padding: 35px 140px 0px 140px;
+    padding: 35px 259px 0px 259px;
   }
   .bluetooh_70days__desktop {
     display: block;
@@ -861,8 +867,8 @@ footer {
 
   .bluetooh_70days__desktop {
     position: relative;
-	 margin-top: 133px;
-	 margin-bottom: 48px;
+    margin-top: 133px;
+    margin-bottom: 48px;
   }
 
   .desktop_70,
@@ -878,4 +884,50 @@ footer {
   .desktop_days {
     top: 60px;
   }
+
+  /*anything*/
+  .anything_text {
+    padding: 35px 257px 50px 257px;
+  }
+
+  .anything_content__item {
+	  width: 236px;
+  }
+
+  .slide_heading {
+    margin-top: 39px;
+    margin-bottom: 15px;
+}
+
+.slider_text {
+    margin: 30px 257px 70px 257px;
+}
+
+/*multiplau*/
+.tab_heading {
+    flex-direction: row;
+    text-align: center;
+}
+
+.multiple_text {
+    margin: 35px 170px 70px 170px;
+}
+
+.multiple_list__number li:nth-child(2) {
+    width: 310px;
+    margin-left: 60px;
+}
+
+.multiple_img {
+    height: 665px;
+    background-image: url(image/tablet_horizontal/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+}
+
+}
+
+@media (min-width: 1920px) {
+	.multiple_img {
+    height: 970px;
+    background-image: url(image/desktop/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+}
 }
