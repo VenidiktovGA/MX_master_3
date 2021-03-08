@@ -20,123 +20,174 @@
   </head>
   <body>
     <main>
-      
-        <nav class="navbar navbar-expand-lg navbar-light logo">
-          <div class="container-fluid">
-            <div class="logo_start">
-              <a href="index.html"
-                ><img src="image/Logo_Logitech_dark 1.svg" alt="Логотип"
-              /></a>
-            </div>
-            <div class="logo_next disable">
-              <a href="index.html"
-                ><img src="image/Logo_Logitech 1.svg" alt="Логотип"
-              /></a>
-            </div>
-            <button
-              class="navbar-toggler navbar-toggler_open"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <button
-              class="navbar-toggler navbar-toggler_close disable"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class=".navbar-toggler-icon"
-                ><svg
-                  id="x"
-                  width="25"
-                  height="25"
-                  viewBox="0 0 25 25"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M23.2393 23.2392L1.60683 1.60667M1.81669 23.0296L23.0299 1.81635"
-                    stroke="white"
-                    stroke-width="4"
-                  />
-                </svg>
-              </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#bluetoouh"
-                    >БЕЗ ПРОВОДОВ</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#anything">ЗА ЛЮБЫМ СТОЛОМ</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#multiple"
-                    >ОДНОВРЕМЕННО С НЕСКОЛЬКИХ УСТРОЙСТВ</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#settings"
-                    >С ИНДИВИДУАЛЬНЫМИ НАСТРОЙКАМИ</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#speed_heading"
-                    >БЫСТРЕЕ, ЧЕМ КОГДА-ЛИБО</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#comfortSpeed"
-                    >КОМФОРТНО. ЭРГОНОМИЧНО. ИНТУИТИВНО.</a
-                  >
-                </li>
-              </ul>
-            </div>
+      <nav class="navbar navbar-expand-lg navbar-light logo">
+        <div class="container-fluid">
+          <div class="logo_start">
+            <a href="index.html"
+              ><img src="image/Logo_Logitech_dark 1.svg" alt="Логотип"
+            /></a>
           </div>
-        </nav>
-
-		  <section class="work_filter"></section>
-
-        <section class="section_work containerCenter">
-          <div class="work_image">
-            <p class="heading">РАБОТАЙТЕ ПРОДУКТИВНЕЕ</p>
+          <div class="logo_next disable" id="logo_next_mobile">
+            <a href="index.html"
+              ><img src="image/Logo_Logitech 1.svg" alt="Логотип"
+            /></a>
           </div>
-
-          <div class="workContainer_text">
-            <p class="work_text text">
-              Создана для эффективной работы, программирования и творчества
-            </p>
-          </div>
-
-          <div class="arrow">
-            <a href="#bluetoouh">
-              <svg
-                width="61"
-                height="33"
-                viewBox="0 0 61 33"
+          <button
+            class="navbar-toggler navbar-toggler_open"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <button
+            class="navbar-toggler navbar-toggler_close disable"
+            type="button"
+            id="x"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class=".navbar-toggler-icon"
+              ><svg
+                id="navbar-toggler-icon__x"
+                width="87"
+                height="87"
+                viewBox="0 0 87 87"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M2 2L30.5 31L59 2"
-                  stroke="#FF2947"
-                  stroke-width="3"
-                  stroke-linejoin="round"
+                  d="M64.6999 64.7004L21.5664 21.5669M21.5668 64.7004L64.7003 21.567"
+                  stroke="white"
+                  stroke-width="8"
                 />
               </svg>
-            </a>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+					<li class="nav-item">
+						<a href="index.html"
+              ><img id="logo_next_desktop" src="image/Logo_Logitech 1.svg" alt="Логотип"
+            /></a>
+					</li>
+              <li class="nav-item">
+                <a
+                  class="nav-link burger_words__mobile"
+                  aria-current="page"
+                  href="#bluetoouh"
+                  >БЕЗ ПРОВОДОВ</a
+                >
+                <a
+                  class="nav-link burger_words__desktop disable"
+                  aria-current="page"
+                  href="#bluetoouh"
+                  >РАБОТАЙТЕ БЕЗ ПРОВОДОВ</a
+                >
+              </li>
+				  <li class="nav-item__filter"></li>
+              <li class="nav-item">
+                <a class="nav-link burger_words__mobile" href="#anything"
+                  >ЗА ЛЮБЫМ СТОЛОМ</a
+                >
+                <a
+                  class="nav-link burger_words__desktop disable"
+                  aria-current="page"
+                  href="#bluetoouh"
+                  >ГДЕ УГОДНО</a
+                >
+              </li>
+				  <li class="nav-item__filter"></li>
+              <li class="nav-item">
+                <a class="nav-link burger_words__mobile" href="#multiple"
+                  >ОДНОВРЕМЕННО С НЕСКОЛЬКИХ УСТРОЙСТВ</a
+                >
+                <a
+                  class="nav-link burger_words__desktop disable"
+                  aria-current="page"
+                  href="#bluetoouh"
+                  >С КОМФОРТОМ</a
+                >
+              </li>
+				  <li class="nav-item__filter"></li>
+              <li class="nav-item">
+                <a class="nav-link burger_words__mobile" href="#settings"
+                  >С ИНДИВИДУАЛЬНЫМИ НАСТРОЙКАМИ</a
+                >
+                <a
+                  class="nav-link burger_words__desktop disable"
+                  aria-current="page"
+                  href="#bluetoouh"
+                  >С РАЗНЫХ УСТРОЙСТВ</a
+                >
+              </li>
+				  <li class="nav-item__filter"></li>
+              <li class="nav-item">
+                <a class="nav-link burger_words__mobile" href="#speed_heading"
+                  >БЫСТРЕЕ, ЧЕМ КОГДА-ЛИБО</a
+                >
+                <a
+                  class="nav-link burger_words__desktop disable"
+                  aria-current="page"
+                  href="#bluetoouh"
+                  >В ЛЮБОЕ ВРЕМЯ</a
+                >
+              </li>
+				  <li class="nav-item__filter"></li>
+              <li class="nav-item">
+                <a class="nav-link burger_words__mobile" href="#comfortSpeed"
+                  >КОМФОРТНО. ЭРГОНОМИЧНО. ИНТУИТИВНО.</a
+                >
+                <a
+                  class="nav-link burger_words__desktop disable"
+                  aria-current="page"
+                  href="#bluetoouh"
+                  >И ЕЩЕ БЫСТРЕЕ</a
+                >
+              </li>
+            </ul>
           </div>
-        </section>
+        </div>
+      </nav>
+
+      <section class="work_filter"></section>
+
+      <section class="section_work containerCenter">
+        <div class="work_image">
+          <p class="heading">РАБОТАЙТЕ ПРОДУКТИВНЕЕ</p>
+        </div>
+
+        <div class="workContainer_text">
+          <p class="work_text text">
+            Создана для эффективной работы, программирования и творчества
+          </p>
+        </div>
+
+        <div class="arrow">
+          <a href="#bluetoouh">
+            <svg
+              width="61"
+              height="33"
+              viewBox="0 0 61 33"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2 2L30.5 31L59 2"
+                stroke="#FF2947"
+                stroke-width="3"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+        </div>
+      </section>
       <section class="section_bluetooth containerCenter" id="bluetoouh">
         <header class="header_bluetooh">
           <svg
@@ -163,6 +214,14 @@
         </div>
         <p class="bluetooh_70days">70 дней</p>
         <div class="bluetooh_img"></div>
+		  
+		  <div class="bluetooh_70days__desktop">
+			  <div class="bluetooh_70days__desktop_img">
+			  <div class="bluetooh_img_desktop_1"><img class="bluetooh_70days__desktop_img1" src="image/desktop/High_Resolution_PNG-MX Master 3 FRONT GRAPHITE 1.png" alt=""></div>
+			  <div class="bluetooh_img_desktop_2"><img class="bluetooh_70days__desktop_img2" src="image/High_Resolution_PNG-MX Master 3 LEFT GRAPHITE 1.png" alt=""></div>
+			  </div>
+			  <p class="desktop_70">70<span class="desktop_days">дней</span></p>
+		  </div>
       </section>
 
       <section class="section_anything containerCenter" id="anything">

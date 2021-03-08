@@ -114,6 +114,16 @@ footer {
 
 .navbar-light .navbar-toggler-icon {
   background-image: url(image/menu-burger.svg);
+  background-size: contain;
+}
+
+#navbar-toggler-icon__x {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff !important;
 }
 
 .navbar-collapse {
@@ -151,18 +161,21 @@ footer {
   color: #c4c4c4;
 }
 
-.disable {
+#navbarNav > ul > li:first-child {
   display: none;
+}
+
+#navbarNav > ul > li:nth-child(2) {
+  margin-top: 148px;
+}
+
+.disable {
+  display: none !important;
 }
 
 .backColor {
   background-color: #2f3132;
   transition: 0.2s;
-}
-
-#x {
-  margin-top: 14px;
-  margin-right: -20px;
 }
 
 /*/burgerMenu*/
@@ -213,6 +226,10 @@ footer {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.bluetooh_70days__desktop {
+  display: none;
 }
 
 .bluetooh_70days {
@@ -449,7 +466,7 @@ footer {
   margin-right: 12px;
 }
 
-/**************************Планшет*********************************/
+/**************************/ /*Планшет*******************************/
 
 @media (min-width: 768px) {
   /*work*/
@@ -462,6 +479,23 @@ footer {
     padding-top: 54px;
   }
 
+  .navbar-toggler-icon {
+    width: 61px;
+  }
+
+  #navbar-toggler-icon__x {
+    width: 61px;
+    height: 61px;
+  }
+
+  .navbar .navbar-toggler {
+    top: 54px;
+    right: 58px;
+  }
+
+  #navbarNav > ul > li:nth-child(2) {
+    margin-top: 123px;
+  }
   .work_filter {
     height: 159px;
   }
@@ -476,9 +510,6 @@ footer {
 
   .arrow svg {
     height: 29px;
-  }
-
-  .arrow {
     margin-bottom: 80px;
   }
 
@@ -681,5 +712,170 @@ footer {
     line-height: 16px;
     padding-top: 47px;
     padding-bottom: 71px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: none !important;
+  }
+
+  .navbar-expand-lg .navbar-toggler {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .workContainer_text {
+    margin: 8px 155px 49px 155px;
+  }
+  .nav-item {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .navbar {
+    padding-top: 0px;
+    height: 100px;
+  }
+
+  .container-fluid {
+    height: inherit;
+    background-color: #2f3132;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    height: inherit;
+    justify-content: center;
+  }
+
+  #navbarNav > ul > li:nth-child(2) {
+    margin-top: 0px;
+  }
+
+  #navbarNav > ul > li:first-child {
+    display: block;
+  }
+
+  .logo_start {
+    display: none;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0px;
+  }
+
+  .nav-item:first-child,
+  .nav-item:last-child,
+  .nav-item {
+    margin: 0px;
+  }
+
+  .nav-item__filter {
+    width: 1px;
+    height: 30px;
+    border-right: 1px solid #494949;
+  }
+
+  .logo_next_mobile {
+    display: none;
+  }
+
+  .burger_words__mobile {
+    display: none;
+  }
+
+  .burger_words__desktop {
+    display: block !important;
+  }
+
+  #logo_next_desktop {
+    width: 150px;
+    margin-right: 147px;
+  }
+
+  .navbar-nav {
+    max-width: 1357px;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  /*bluetooth*/
+  .header_bluetooh {
+    margin-top: 80px;
+    margin-bottom: 35px;
+  }
+
+  .bluetooh_text {
+    padding: 35px 140px 0px 140px;
+  }
+  .bluetooh_70days__desktop {
+    display: block;
+  }
+
+  .bluetooh_70days,
+  .bluetooh_img {
+    display: none;
+  }
+  .desktop_70 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 300px;
+    line-height: 352px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #c4c4c4;
+  }
+
+  .desktop_days {
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 112px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #c4c4c4;
+  }
+
+  .bluetooh_70days__desktop_img1 {
+    height: 286px;
+  }
+  .bluetooh_70days__desktop_img2 {
+    height: 307px;
+  }
+
+  .bluetooh_70days__desktop,
+  .bluetooh_70days__desktop_img {
+    display: flex;
+    gap: 90px;
+  }
+
+  .bluetooh_70days__desktop {
+    position: relative;
+	 margin-top: 133px;
+	 margin-bottom: 48px;
+  }
+
+  .desktop_70,
+  .desktop_days {
+    position: absolute;
+  }
+
+  .desktop_70 {
+    left: 32%;
+    top: -38%;
+  }
+
+  .desktop_days {
+    top: 60px;
   }
 }
