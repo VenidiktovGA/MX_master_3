@@ -57,6 +57,7 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
 }
 
 /********work********/
@@ -410,6 +411,9 @@ footer {
 
 /********settings********/
 
+.settings_all__img {
+  display: none;
+}
 #carouselSettings {
   width: 100%;
   margin-bottom: 60px;
@@ -891,43 +895,148 @@ footer {
   }
 
   .anything_content__item {
-	  width: 236px;
+    width: 236px;
   }
 
   .slide_heading {
     margin-top: 39px;
     margin-bottom: 15px;
-}
+  }
 
-.slider_text {
+  .slider_text {
     margin: 30px 257px 70px 257px;
-}
+  }
 
-/*multiplau*/
-.tab_heading {
+  /*multiplau*/
+  .tab_heading {
     flex-direction: row;
     text-align: center;
-}
+  }
 
-.multiple_text {
+  .multiple_text {
     margin: 35px 170px 70px 170px;
-}
+  }
 
-.multiple_list__number li:nth-child(2) {
+  .multiple_list__number li:nth-child(2) {
     width: 310px;
     margin-left: 60px;
-}
+  }
 
-.multiple_img {
+  .multiple_img {
     height: 665px;
     background-image: url(image/tablet_horizontal/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
-}
+  }
+  */
 
+/*settings*/
+.settings_text {
+    margin: 38px 151px 74px 151px;
+  }
+
+  #carouselSettings {
+    display: none;
+  }
+
+  .settings_all__img {
+    display: block;
+    height: 698px;
+  }
+
+  .settings_optimisetion {
+    width: 749px;
+    padding-bottom: 29px;
+    margin-bottom: 70px;
+  }
+
+  .settings_optimisetion {
+    padding: 38px 63px 29px 63px;
+  }
+
+  /*comfortSpeed*/
+
+  .comfort_img,
+  .speed_img {
+    height: 557px;
+  }
+
+  .comfortSpeed {
+    padding-top: 0px;
+  }
+
+  .comfortSpeed_content_nontainer {
+    margin-top: 100px;
+	 margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .comfort_img {
+    height: 557px;
+    background-image: url(image/tablet_horizontal/image\ 1.jpg);
+    grid-area: 1/1/1/1;
+    background-position: center bottom;
+  }
+
+  .comfort_heading {
+    width: 281px;
+    margin-bottom: 28px;
+  }
+
+  .comfort_text_container {
+    text-align: left;
+    padding: 121px 37px 121px 37px;
+  }
+
+  .speed_text_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding: 162px 31px 161px 31px;
+  }
+
+  .speed_text {
+    text-align: right;
+    width: 400px;
+    margin: 0px;
+    margin-top: 34px;
+  }
+
+  .speed_heading {
+    margin-top: 0px;
+  }
+
+  .comfort_text {
+    text-align: left;
+    width: 400px;
+  }
+
+  .speed_img {
+    height: 557px;
+    background-image: url(image/tablet_horizontal/image\ 2.jpg);
+    background-position: center top;
+  }
+
+  .tab_heading {
+    flex-direction: column;
+  }
+
+  .tab_heading p {
+    text-align: left;
+  }
+
+  .speed_heading p {
+    text-align: right;
+  }
+
+  .comfort_text {
+    margin: 0px;
+  }
 }
 
 @media (min-width: 1920px) {
-	.multiple_img {
+  .multiple_img {
     height: 970px;
     background-image: url(image/desktop/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
-}
+  }
 }
